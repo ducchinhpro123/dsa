@@ -22,11 +22,11 @@ The function should return an integer, the total time required.
 
 # Example
 
-Look at this array: queueTime([10,2,3,3], 2). There are 2 crashiers, 4 customers (length of the array). 
-The first person has 10 items, the second person has 2 items and so on. So, imagine you entered a super market and waiting for check out,
-there are 2 crashiers in this supermarket. The first person take the first crashier and he has 10 items to check out, the second person is 
-standing at the second crashier with only 2 items. Which one will be check out faster? Of course the person who has 2 items will be leave sonner. 
-So you will queue at behind the second person at crashier number 2.
+Look at this array: queueTime([10,2,3,3], 2). There are 2 cashiers, and 4 customers (length of the array). 
+The first person has 10 items, the second person has 2 items and so on. So, imagine you entered a supermarket and waiting for check out,
+there are 2 cashiers in this supermarket. The first person takes the first crashier and he has 10 items to check out, the second person is 
+standing at the second crashier with only 2 items. Which one will be checking out faster? Of course, the person who has 2 items will be left sooner. 
+So you will queue behind the second person at crashier number 2.
 
 | 1 | 2 | 
 |----------|----------|
