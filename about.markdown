@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /dsa/
 ---
 <div style="width: 70%;">
 Hi, my name is Võ Đức Chính. There are so many thoughts about the problem and how I solve it, and I need to release these 
