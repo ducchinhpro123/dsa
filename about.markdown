@@ -1,0 +1,10 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+<div style="width: 70%;">
+Hi, my name is Võ Đức Chính. There are so many thoughts about the problem and how I solve it, and I need to release these 
+    thoughts before my head explodes. That's why this blog was created.
+</div>
+
