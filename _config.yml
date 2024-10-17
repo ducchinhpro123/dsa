@@ -22,7 +22,7 @@ title: Chinh's Home
 email: duchinhpro@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A home for some of my stupid ideas.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "/dsa" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  ducchinhpro123
