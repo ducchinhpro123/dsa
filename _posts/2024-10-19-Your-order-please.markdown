@@ -61,7 +61,6 @@ use std::collections::BTreeMap;
 fn order(sentence: &str) -> String {
     let sentence_array: Vec<&str> = sentence.split_whitespace().collect();
     let mut map: BTreeMap<u32, &str> = BTreeMap::new();
-    let mut answer = String::new();
 
     for i in 0..sentence_array.len() {
         for j in sentence_array[i].chars() {
@@ -71,12 +70,7 @@ fn order(sentence: &str) -> String {
             }
         }
     }
-
-    for value in map.values() {
-        answer.push_str(value);
-    }
-
-    answer
+    map.values().cloned().collect::<Vec<_>>().join(" ")
 }
 ```
 
