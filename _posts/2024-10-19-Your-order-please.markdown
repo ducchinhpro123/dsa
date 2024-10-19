@@ -44,7 +44,7 @@ So what else do we got in here? if we can see this:
 ```
 
 And that's right, that's _hashmap_, our best friend. But we have a problem in here, the map isn't sorted. Fotunately, we got
-[B-Tree](https://en.wikipedia.org/wiki/B-tree). And `BTreeMap`, which is based on `BTreeMap` and also hashmap but sorted by default. So we have: 
+[B-Tree](https://en.wikipedia.org/wiki/B-tree). And `BTreeMap`, which is based on `B-tree` and also hashmap but sorted by default. So we have: 
 
 ```
 1: Thi1s,
