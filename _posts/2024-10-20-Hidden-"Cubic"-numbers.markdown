@@ -49,7 +49,7 @@ Given a string like: `aqdf&0#1xyz!22[153(777.777`. And we want to find the numbe
 
 After that, for each element in this array, we want to find the cube number. For example, in the array we have element `153`:
 
-`1<sup>3</sup> + 5<sup>3</sup> + 3<sup>3</sup> = 153` and that is the cube number.
+`1^3 + 5^3 + 3^3 = 153` and that is the cube number.
 
 We calculate if a given number is a cube number like this: 
 
