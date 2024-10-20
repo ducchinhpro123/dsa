@@ -112,7 +112,7 @@ use regex::Regex;
 
 fn extract_digit_to_groups(s: &str) -> Vec<&str> {
     let re = Regex::new(r"\d+").unwrap();
-    re.find_iter(s).map(|mat|mat.as_str()).collect()
+    re.find_iter(s).map(|mat| mat.as_str()).collect()
 }
 
 fn sum_of_cubic_number(num: i32) -> bool {
@@ -130,9 +130,8 @@ fn sum_of_cubic_number(num: i32) -> bool {
         return true;
     }
 
-    false 
+    false
 }
-
 fn is_sum_of_cubes(s: &str) -> String {
     let mut answer = String::new();
     let ts = extract_digit_to_groups(s);
@@ -149,16 +148,23 @@ fn is_sum_of_cubes(s: &str) -> String {
     for j in arr_with_3_digits.iter() {
         let b = sum_of_cubic_number(j.parse::<i32>().unwrap());
         if b {
-            if j.len() == 2 && j.chars().nth(0) == j.chars().nth(1) {
-                answer.push(j.chars().nth(0).unwrap());
-            } else {
+            let chars: Vec<char> = j.chars().collect();
+            if chars.iter().all(|&c| c == chars[0]) {
+                answer.push(chars[0]);
+            } else if j.len() > 2 && j.chars().nth(0) == j.chars().nth(1) {
+                answer.push(j.chars().nth(j.len()-1).unwrap());
+            }
+            else {
                 answer.push_str(j);
             }
             answer.push_str(" ");
         }
     }
     if answer.len() > 0 {
-        let sum: i32 = answer.split_whitespace().map(|x| x.parse::<i32>().unwrap()).sum();
+        let sum: i32 = answer
+            .split_whitespace()
+            .map(|x| x.parse::<i32>().unwrap())
+            .sum();
         answer.push_str(&sum.to_string());
         answer.push_str(" Lucky");
     } else {
@@ -167,5 +173,6 @@ fn is_sum_of_cubes(s: &str) -> String {
 
     answer
 }
+
 ```
 
