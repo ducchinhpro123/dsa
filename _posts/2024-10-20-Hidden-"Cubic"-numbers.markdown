@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hidden "Cubic" numbers"
+title: Hidden Cubic numbers
 date: 2024-10-20
 categories: jekyll update
 ---
