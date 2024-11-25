@@ -12,7 +12,7 @@ categories: jekyll update
 The formula you may familiar with:
 
 $$
-{{ax^2 + bx + c = 0}}
+ax^2 + bx + c = 0
 $$
 
 And the solution is given:
@@ -30,21 +30,21 @@ The idea and work through are all from the book [No bullshit guide to linear alg
 Ok let's work through it.
 
 $$
-{{ax^2 + bx + c = 0}}
+ax^2 + bx + c = 0
 $$
 
 $$
-{{ax^2 + bx = -c}}
+ax^2 + bx = -c
 $$
 
 $$
-{{x^2 + \frac{b}{a}x = -\frac{c}{a}}}
+x^2 + \frac{b}{a}x = -\frac{c}{a}
 $$
 
 Now from the left of expression, we'll use [_Complete the square_](https://en.wikipedia.org/wiki/Completing_the_square) method.
 
 $$
-{{(x - h)^2 + k = x^2 + \frac{b}{a}x}} \tag{1}
+(x - h)^2 + k = x^2 + \frac{b}{a}x \tag{1}
 $$
 
 $$
@@ -54,21 +54,21 @@ $$
 Observe this: 
 
 $$
-{{ -2hx = \frac{b}{a}x }}
+-2hx = \frac{b}{a}x
 $$
 
 $$
-{{ -2h = \frac{b}{a} }}
+-2h = \frac{b}{a}
 $$
 
 $$
-{{ h = -\frac{b}{2a} }}
+h = -\frac{b}{2a}
 $$
 
 so we got
 
 $$
-{{(x + \frac{b}{2a})^2}}
+(x + \frac{b}{2a})^2
 $$
 
 which can be express to:
@@ -112,9 +112,9 @@ $$
 $$
 
 $$
-{{x}} = \frac{-b}{2a} \pm \left(\frac{\sqrt{b^2 -4ac}}{2a}\right)
+x = \frac{-b}{2a} \pm \left(\frac{\sqrt{b^2 -4ac}}{2a}\right)
 $$
 
 $$
-{{x}} = \left(\frac{-b \pm \sqrt{b^2 -4ac}}{2a}\right)
+x = \left(\frac{-b \pm \sqrt{b^2 -4ac}}{2a}\right)
 $$
