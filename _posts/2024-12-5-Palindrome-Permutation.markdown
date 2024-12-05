@@ -13,7 +13,9 @@ permutation is a rearrangement of letters. The palindrome does not need to be li
 dictionary words. 
 
 > EXAMPLE 
+
 > Input: Tact Coa 
+
 > Output: True (permutations: "taco cat'; "atco eta·; etc.) 
 
 # Approach
