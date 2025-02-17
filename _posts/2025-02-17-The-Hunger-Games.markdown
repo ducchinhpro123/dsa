@@ -69,17 +69,13 @@ Reference to the constraints above, we see that `foxes` can't eat `bugs`, `bugs`
 | 7    | sheep eats grass               | fox, sheep                         |
 | 8    | fox eats sheep                 | fox                                |
 
-> [!NOTE]  
 
-| 💡                                                                                                            |
-|---------------------------------------------------------------------------------------------------------------|
-| > Animals can only eat things beside them                                                                     |
-|                                                                                                               |
-| > Animals always eat to their LEFT before eating to their RIGHT                                               |
-|                                                                                                               |
-| > Always the LEFTMOST animal capable of eating will eat before any others                                     |
-|                                                                                                               |
-| > Any other things you may find at the zoo (which are not listed above) do not eat anything and are not edible|
+| 💡                                                                                                             |
+|----------------------------------------------------------------------------------------------------------------|
+|  - Animals can only eat things beside them                                                                     |
+|  - Animals always eat to their LEFT before eating to their RIGHT                                               |
+|  - Always the LEFTMOST animal capable of eating will eat before any others                                     |
+|  - Any other things you may find at the zoo (which are not listed above) do not eat anything and are not edible|
 
 
 ## Ideas to solve this problem
