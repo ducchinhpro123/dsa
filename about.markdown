@@ -5,17 +5,16 @@ permalink: /dsa/
 ---
 
 <pre>
-```
-( How do I type "for i in *.dvi do xdvi   )
-( $i done" in a GUI? -- Discussion in     )
-( comp.os.linux.misc on the intuitiveness )
-( of interfaces                           )
+ _________________________________________
+( Life is a strange thing. Just when you  )
+( think you learned how to use it, it’s )
+( gone. -- Shakespears Sister -- “Hello )
+( (Turn Your Radio On)” ( )             )
  -----------------------------------------
         o   ^__^
          o  (oo)\_______
             (__)\       )\/\
                 ||----w |
                 ||     ||
-```
 </pre>
 
